@@ -8,7 +8,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "test:unit": "vitest",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "vue": "^3.4.15",
@@ -16,11 +18,22 @@
     "vuetify": "^3.5.2"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.13",
+    "@storybook/addon-interactions": "^7.6.13",
+    "@storybook/addon-links": "^7.6.13",
+    "@storybook/blocks": "^7.6.13",
+    "@storybook/test": "^7.6.13",
+    "@storybook/vue3": "^7.6.13",
+    "@storybook/vue3-vite": "^7.6.13",
     "@vitejs/plugin-vue": "^5.0.3",
     "@vue/test-utils": "^2.4.4",
     "eslint": "^8.49.0",
+    "eslint-plugin-storybook": "^0.6.15",
     "eslint-plugin-vue": "^9.17.0",
     "jsdom": "^24.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.6.13",
     "vite": "^5.0.11",
     "vitest": "^1.2.2"
   }
