@@ -36,7 +36,7 @@ export const Secondary = {
 export const Large = {
   args: {
     size: 'large',
-    label: 'Button',
+    label: 'Button Large',
   },
 };
 
